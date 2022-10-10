@@ -1,0 +1,89 @@
+.navbar-container {
+  background-color: #9796f0;
+  height: 15vh;
+  width: 100%;
+  background-size: cover;
+  padding-top: 15px;
+}
+.icon-logo-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+.logo {
+  height: 65px;
+  width: 65px;
+}
+.emoji-icon-name {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Roboto';
+}
+
+.current-score {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+  margin-left: 25px;
+}
+.top-score {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .current-score {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .top-score {
+    font-size: 16px;
+  }
+  .emoji-icon-name {
+    font-size: 17px;
+  }
+  .navbar-container {
+    height: 12vh;
+    width: 100%;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .icon-logo-score-container {
+    width: 80%;
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-container {
+    margin-left: 110px;
+  }
+}
+
+.score-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .current-score {
+    margin-right: 4px;
+    margin-left: 0px;
+    padding-left: 4px;
+  }
+}

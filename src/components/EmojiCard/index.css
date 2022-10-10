@@ -1,0 +1,33 @@
+.emoji-container {
+  background-color: #9796f0;
+  border-radius: 15px;
+  border: 1px solid #ffffff33;
+  list-style-type: none;
+  height: 170px;
+  width: 210px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.emoji-img {
+  height: 120px;
+  width: 120px;
+  align-self: center;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-container {
+    height: 100px;
+    width: 100px;
+  }
+  .emoji-img {
+    height: 60px;
+    width: 60px;
+  }
+}

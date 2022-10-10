@@ -1,0 +1,26 @@
+.emoji-app-container {
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-list-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 980px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-list-container {
+    width: 60%;
+    max-width: 850px;
+  }
+}
